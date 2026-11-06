@@ -62,12 +62,15 @@ body {
 .sub-headline {
   font-style: italic;
   color: #697b59;
+  font-weight: 100;
+  font-size: 1.5em;
 }
 
 .author {
   font-weight: bold;
   font-size: 12px;
   color: #64704e;
+  text-transform: uppercase;
 }
 
 .text {
