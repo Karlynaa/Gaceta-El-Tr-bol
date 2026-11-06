@@ -1,0 +1,92 @@
+html {
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  background-color: #e8f0e5;
+}
+
+.newspaper {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 35px;
+  background-color: #fffdf2;
+  color: #354333;
+  border: 1px solid #c5c9a6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.name {
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #355b3d;
+  border-bottom: 3px double #87966b;
+  padding-bottom: 12px;
+}
+
+.edition {
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #697b59;
+}
+
+.date {
+  text-align: center;
+  font-size: 12px;
+  color: #68775a;
+}
+
+.section {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #87966b;
+  border-bottom: 1px solid #c5c9a6;
+  padding-bottom: 8px;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+  color: #344c36;
+}
+
+.sub-headline {
+  font-style: italic;
+  color: #697b59;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 12px;
+  color: #64704e;
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-top: 12px;
+  border-top: 3px double #87966b;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #697b59;
+}
